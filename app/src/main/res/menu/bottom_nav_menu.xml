@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_san_bong"
+        android:icon="@drawable/ic_nav_san_bong"
+        android:title="Sân bóng" />
+
+    <item
+        android:id="@+id/nav_dat_san"
+        android:icon="@drawable/ic_nav_dat_san"
+        android:title="Đặt sân" />
+
+    <item
+        android:id="@+id/nav_don_dat"
+        android:icon="@drawable/ic_nav_don_dat"
+        android:title="Đơn đặt" />
+
+</menu>

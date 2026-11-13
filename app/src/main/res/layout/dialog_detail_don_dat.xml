@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chi tiết đơn đặt sân"
+        android:textColor="#1976D2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="12dp"
+        android:background="#E0E0E0" />
+
+    <TextView
+        android:id="@+id/tvDetailMaDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã đơn: #1"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDetailNguoiDat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Người đặt: Nguyễn Văn A"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvDetailSDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Số điện thoại: 0987654321"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvDetailTenSan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Sân bóng: Sân cỏ nhân tạo A (5 người)"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvDetailNgay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Ngày thuê: 15/11/2026"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvDetailGio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Giờ bắt đầu: 16:00"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvDetailSoGio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Số giờ thuê: 2 giờ"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvDetailTongTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Tổng tiền: 400,000 VNĐ"
+        android:textColor="#D32F2F"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDetailTrangThai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Trạng thái: Đang đặt"
+        android:textColor="#2E7D32"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
